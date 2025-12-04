@@ -1,0 +1,19 @@
+.btn {
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+  }
+  
+  .leftBtn {
+    left: 0;
+  }
+  
+  .rightBtn {
+    right: 0;
+  }
+  

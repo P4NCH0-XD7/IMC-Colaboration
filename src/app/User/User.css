@@ -1,0 +1,83 @@
+
+
+
+
+.targetasPrincipal{
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples filas si es necesario */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  gap: 10px; /* Espacio entre las tarjetas */
+  padding-left: inherit;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background-color: linear-gradient(180deg, #4b2e2d 0, #3d2627 12.5%, #2d1d1f 25%, #1b1314 37.5%, #000000 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+}
+
+.usuario{
+  margin: 0%;
+  padding: auto;
+   
+   background-image:#b1babb
+}
+
+
+.sidebar {
+  
+  width: 150px;
+  background-color: #fff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 25px;
+  margin-top: 200px;
+}
+.sidebar i{
+  display: flex;
+  padding: 10px 0;
+  color: #333;
+  text-decoration: none;
+  margin: 5px 0;
+
+}
+
+.container2{
+  display: flex;
+ 
+}
+
+.AreaImc{
+
+  width: 200px;
+  background-color: #fff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 25px;
+  margin-top: 200px;
+}
+
+.form {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input {
+  margin-left: 10px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.h3 {
+  margin-top: 20px;
+}
+

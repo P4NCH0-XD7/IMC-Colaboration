@@ -1,0 +1,64 @@
+/* Common Styles for Footer */
+.footer {
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containerFooter {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.icon-footer {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+.footer-icon {
+    width: 500px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.text-column {
+    flex: 1 1 200px;
+    min-width: 200px;
+    text-align: left;
+}
+
+.text-column h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.text-column p, .text-column ul, .text-column a {
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.text-column ul li {
+    margin: 5px 0;
+}
+
+.text-column a:hover {
+    text-decoration: underline;
+}
+
+
